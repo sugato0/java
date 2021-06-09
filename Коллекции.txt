@@ -1,0 +1,63 @@
+0import javax.swing.*;
+import java.util.*;
+
+public class AllKollingN {
+    public static void main(String [] args){
+        Queue<String> first = new LinkedList<String>();
+            first.add("One");
+            first.add("two");
+            first.add("three");
+            first.add("four");
+            first.add("five");
+        while (!first.isEmpty()){
+            for(int i = 0 ;i< first.size()+1;i++){System.out.println(first.poll());}
+        }
+        System.out.print("*******************************************************************************************\n");
+        Deque<String> second = new LinkedList<String>();
+        second.add("One");
+        second.add("two");
+        second.add("three");
+        second.add("four");
+        second.add("five");
+        while(!second.isEmpty()){
+            System.out.println(second.poll());
+        }
+        System.out.print("*******************************************************************************************\n");
+        List<String> third = new LinkedList<String>();
+        third.add("one");
+        third.add("two");
+        third.add("three");
+        third.add("four");
+        third.add("five");
+        System.out.println(third.toString());
+        System.out.print("*******************************************************************************************\n");
+        Set<String> forth = new HashSet<String>();
+        forth.add("One");
+        forth.add("two");
+        forth.add("three");
+        forth.add("four");
+        forth.add("five");
+        System.out.println(forth.toString());
+        System.out.print("*******************************************************************************************\n");
+        Map< Integer,String> fivth = new HashMap<Integer, String>();
+        fivth.put(1,"one");
+        fivth.put(2,"two");
+        fivth.put(3,"three");
+        fivth.put(4,"four");
+        fivth.put(5,"five");
+        System.out.println(fivth.keySet());
+        for(int i = 0;i< fivth.size()+1;i++) {
+            System.out.println(fivth.get(i));
+        }
+        System.out.print("*******************************************************************************************\n");
+        TreeSet<String> sixth = new TreeSet<String>();
+        sixth.add("one");
+        sixth.add("two");
+        sixth.add("three");
+        sixth.add("four");
+        sixth.add("five");
+        while (!sixth.isEmpty()){
+            System.out.println(sixth.pollFirst());
+        }
+    }
+}
