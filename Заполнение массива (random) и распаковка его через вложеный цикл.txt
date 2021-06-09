@@ -1,0 +1,21 @@
+import java.util.Arrays;
+public class reqrest{
+    public static void main(String[] args){
+        int[] array = new int[12];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = ((int) (Math.random() * 31) );
+            System.out.println(array[i]);
+        }
+        for (int t = 0;  t < array.length;t++){
+            for ( int g = 0 ; g < array.length;g++ ){
+                if ( array[t] < array[g]){
+                    int variable = array[t];
+                    array[t] = array[g];
+                    array[g] = variable;
+                if (g == array[array.length - 1]){g = 1;}
+                }
+            }
+        }
+        System.out.println(Arrays.toString(array));
+    }
+}
