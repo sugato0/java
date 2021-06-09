@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="423.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.windowDochInformation">
+   <content>
+      <VBox fx:id="EXISIZE" prefHeight="1288.0" prefWidth="407.0" style="-fx-background-color: BLACK;">
+         <children>
+            <Button fx:id="H_VOD" mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="H - водород" textFill="#0d0000" />
+            <fx:script />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="He - гелий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Li - литий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Be - берилий " />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="B - бор" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="C - углерод" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="N - азот" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="O - кислород" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="F - фтор" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ne - неон" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Na - натрий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Mg - магний" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Al - алюминий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Si - кремний" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="P - фосфор" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="S - сера" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Cl - хлор" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ar - аргон" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="K - калий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ca - кальций" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Sc - скандий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ti - титан" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="V - ванадий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Cr - хром" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Mn - марганец" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Fe - железо" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Co - кобальт" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ni - никель" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Cu - медь" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Zn - цинк" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ga - галий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Ge - германий" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="As - мышьяк" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="408.0" text="Se - селен" />
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
